@@ -13,6 +13,7 @@ Offical Documentation https://numpy.org
     It was created in 2005 evolving from the Numeric and Numarray Python library. 
     random() is package within the numpy library 
     
+    
     https://www.javatpoint.com/numpy-random
     
     
@@ -25,6 +26,7 @@ Offical Documentation https://numpy.org
     vi. basic arrays and Ndarrays
     "NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numeric and Numarray libraries." https://numpy.org/about/
     
+    One of the key features of Numpy is it's use of array including NDarrays -multidimensional arrays. The random can use these numpy arrays for random data generation.
     . NumPy is the primary array programming library for the
 Python language. It has an essential role in research analysis pipelines in felds as
 diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials
