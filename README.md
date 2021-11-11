@@ -6,48 +6,72 @@
 3. Explain the use and purpose of at least five “Distributions” functions.
 4. Explain the use of seeds in generating pseudorandom numbers.
 
-1. investigate numpy and create introduction to random
-Offical Documentation https://numpy.org
-    i. What it is.
-    Numpy is an open source Python libary which is designed to enable numerical computing. 
-    It was created in 2005 evolving from the Numeric and Numarray Python library. 
-    random() is package within the numpy library 
+# Numpy explanation
+
+Numpy is an open source Python libary which is designed to enable numerical computing. 
+It was created in 2005 evolving from the Numeric and Numarray Python libraries. 
+https://numpy.org/about/
     
-    
-    https://www.javatpoint.com/numpy-random
-    
-    
-    Pandas, SciPy are Python libaries which use the Numpy library
-    
-    ii. Who uses it
-    iii. Why it is ueful
-    iv. History
-    v. miminum demonstration
-    vi. basic arrays and Ndarrays
-    "NumPy is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numeric and Numarray libraries." https://numpy.org/about/
-    
-    One of the key features of Numpy is it's use of array including NDarrays -multidimensional arrays. The random can use these numpy arrays for random data generation.
-    . NumPy is the primary array programming library for the
-Python language. It has an essential role in research analysis pipelines in felds as
-diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials
+One of the key features of Numpy is it's use of arrays an NDarrays -multidimensional arrays. The random generator outputs random numbers in these numpy arrays.NumPy is the primary array programming library for the Python language. It has an essential role in research analysis pipelines in felds as diverse as physics, chemistry, astronomy, geoscience, biology, psychology, materials
 science, engineering, fnance and economics. https://www.nature.com/articles/s41586-020-2649-2.pdf
-    
- 2. investigate “Simple random data” and “Permutations” and explain.
-     demonstrate each.
-     integers
-     random
-     choice
-     bytes
+More over, these arrays are vectorised meaning that writing code in numpy is simpler.
+ 
+Consider this example, : 
+ ```
+    a=np.array([1,2,3])
+
+    b =np.array([1,2,3])
+  ```
+here we wish to multiply the values of the same index in arrays *a* and *b*. 
+
+Compare numpy code
+  
+  ```
+  c = a * b
+  ```
+  
+  to
+  
+  regular python code 
+   ```c = []
+for i in range(len(a)):
+    c.append(a[i]*b[i]) 
+ ```
+ 
+ to achieve the same result:
+ ``` 
+ c = [1,4,9]
+ ```
+ https://www.activestate.com/resources/quick-reads/what-is-numpy-used-for-in-python/
+
+The same simple expression can be used if *a* and *b* were ndarrays, where as the regular python code 
+  
+## random() is package within the numpy library.
+
+  
+### Contents of the notebook 
+#### 1 . Simple random data functions 
+1.1 integers
+
+1.2 random
+
+1.3 choice
+
+1.4 bytes
+ 
+##### 2. Permutations
+
      
-     shuffle
-     permuations
+2.1 shuffle
+
+2.2permuations
      
     
   
- 3. determine five "Distribution functions" and demonstrate use of.
-     Investigate these
+##### 3. numpy distribution functions
+
      Normal
      Uniform
  
- 4. what are pseudo random numbers?
+##### 4. Seeding and pseudo random numbers?
      
