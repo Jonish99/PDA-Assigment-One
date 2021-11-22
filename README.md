@@ -1,40 +1,15 @@
-# PDA-Assigment-One
+# GMIT Progamming for Data Analytics -Assigment-One. Jon Ishaque: G00398244
 
-## Assigment plan
-1. Explain the overall purpose of the package. - Numpy.random
-2. Explain the use of the “Simple random data” and “Permutations” functions.
-3. Explain the use and purpose of at least five “Distributions” functions.
-4. Explain the use of seeds in generating pseudorandom numbers.
+### November 2021
+The assginment response is contained in a Jupyter notebook.
+If numpy is not installed, visit numpy.org.
+
+The required libraries are contained at the start of the notebook.
+The were some issues during the writing of the notebook, where if the left idle for a long time, libraries were no longer availble. Or the alias,
+rng = np.random.default_rng() was lost. Both these issues are rectified by running the first code cell again.
 
 
 
 
-## random() is package within the numpy library.
 
-  
-### Contents of the notebook 
-#### 1 . Simple random data functions 
-1.1 integers
 
-1.2 random
-
-1.3 choice
-
-1.4 bytes
- 
-##### 2. Permutations
-
-     
-2.1 shuffle
-
-2.2permuations
-     
-    
-  
-##### 3. numpy distribution functions
-
-     Normal
-     Uniform
- 
-##### 4. Seeding and pseudo random numbers?
-     
